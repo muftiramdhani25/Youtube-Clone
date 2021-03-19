@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640E18332604506800E85496 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E18322604506800E85496 /* CacheManager.swift */; };
+		64546E9E2602FF53003744DE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64546E9D2602FF53003744DE /* VideoTableViewCell.swift */; };
 		646A62AB25FF0C6900B25C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A62AA25FF0C6900B25C4F /* AppDelegate.swift */; };
 		646A62AD25FF0C6900B25C4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A62AC25FF0C6900B25C4F /* SceneDelegate.swift */; };
 		646A62AF25FF0C6900B25C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A62AE25FF0C6900B25C4F /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640E18322604506800E85496 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		64546E9D2602FF53003744DE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		646A62A725FF0C6900B25C4F /* Youtube Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646A62AA25FF0C6900B25C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		646A62AC25FF0C6900B25C4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64546E982602FB16003744DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				646A62AE25FF0C6900B25C4F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64546E992602FB34003744DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64546E9D2602FF53003744DE /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64546E9A2602FB64003744DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				646A62C225FF11C700B25C4F /* Video.swift */,
+				646A62C525FF12EB00B25C4F /* Model.swift */,
+				64F55FEC26006D1400622EF0 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64546E9B2602FB77003744DE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				646A62B025FF0C6900B25C4F /* Main.storyboard */,
+				646A62B525FF0C6C00B25C4F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		64546E9C2602FB83003744DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				646A62BF25FF0D5F00B25C4F /* Constants.swift */,
+				640E18322604506800E85496 /* CacheManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		646A629E25FF0C6900B25C4F = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +114,13 @@
 			children = (
 				646A62AA25FF0C6900B25C4F /* AppDelegate.swift */,
 				646A62AC25FF0C6900B25C4F /* SceneDelegate.swift */,
-				646A62AE25FF0C6900B25C4F /* ViewController.swift */,
-				646A62B025FF0C6900B25C4F /* Main.storyboard */,
+				64546E9C2602FB83003744DE /* Helpers */,
+				64546E9B2602FB77003744DE /* Storyboards */,
+				64546E9A2602FB64003744DE /* Models */,
+				64546E992602FB34003744DE /* Views */,
+				64546E982602FB16003744DE /* ViewControllers */,
 				646A62B325FF0C6C00B25C4F /* Assets.xcassets */,
-				646A62B525FF0C6C00B25C4F /* LaunchScreen.storyboard */,
 				646A62B825FF0C6C00B25C4F /* Info.plist */,
-				646A62BF25FF0D5F00B25C4F /* Constants.swift */,
-				646A62C225FF11C700B25C4F /* Video.swift */,
-				646A62C525FF12EB00B25C4F /* Model.swift */,
-				64F55FEC26006D1400622EF0 /* Response.swift */,
 			);
 			path = "Youtube Clone";
 			sourceTree = "<group>";
@@ -150,10 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				646A62AF25FF0C6900B25C4F /* ViewController.swift in Sources */,
+				640E18332604506800E85496 /* CacheManager.swift in Sources */,
 				646A62AB25FF0C6900B25C4F /* AppDelegate.swift in Sources */,
 				646A62AD25FF0C6900B25C4F /* SceneDelegate.swift in Sources */,
 				646A62C625FF12EB00B25C4F /* Model.swift in Sources */,
 				646A62C025FF0D5F00B25C4F /* Constants.swift in Sources */,
+				64546E9E2602FF53003744DE /* VideoTableViewCell.swift in Sources */,
 				646A62C325FF11C700B25C4F /* Video.swift in Sources */,
 				64F55FED26006D1400622EF0 /* Response.swift in Sources */,
 			);
