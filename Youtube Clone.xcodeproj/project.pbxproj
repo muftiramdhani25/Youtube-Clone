@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		640E18332604506800E85496 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E18322604506800E85496 /* CacheManager.swift */; };
+		640E183626047E9600E85496 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E183526047E9600E85496 /* DetailViewController.swift */; };
+		640E183A2604868F00E85496 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640E18392604868F00E85496 /* WebKit.framework */; };
 		64546E9E2602FF53003744DE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64546E9D2602FF53003744DE /* VideoTableViewCell.swift */; };
 		646A62AB25FF0C6900B25C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A62AA25FF0C6900B25C4F /* AppDelegate.swift */; };
 		646A62AD25FF0C6900B25C4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A62AC25FF0C6900B25C4F /* SceneDelegate.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		640E18322604506800E85496 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		640E183526047E9600E85496 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		640E18392604868F00E85496 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		64546E9D2602FF53003744DE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		646A62A725FF0C6900B25C4F /* Youtube Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646A62AA25FF0C6900B25C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +47,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640E183A2604868F00E85496 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640E18382604868F00E85496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				640E18392604868F00E85496 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64546E982602FB16003744DE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				64546E9D2602FF53003744DE /* VideoTableViewCell.swift */,
+				640E183526047E9600E85496 /* DetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 			children = (
 				646A62A925FF0C6900B25C4F /* Youtube Clone */,
 				646A62A825FF0C6900B25C4F /* Products */,
+				640E18382604868F00E85496 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +217,7 @@
 				646A62C625FF12EB00B25C4F /* Model.swift in Sources */,
 				646A62C025FF0D5F00B25C4F /* Constants.swift in Sources */,
 				64546E9E2602FF53003744DE /* VideoTableViewCell.swift in Sources */,
+				640E183626047E9600E85496 /* DetailViewController.swift in Sources */,
 				646A62C325FF11C700B25C4F /* Video.swift in Sources */,
 				64F55FED26006D1400622EF0 /* Response.swift in Sources */,
 			);
